@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*건물 자세히보기 기능 - 새창*/
+        function win(href_buliding){
+            window.open(href_buliding,"test","top=500,left=800,toolbar=no,location=no,directories=no,status=no,menuber=no,scrollbars=no,resizeable=no,width=1000,height=800");
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Life is short, feel free to join us</h1>
+        <span><a href="#">홈</a></span>
+        <span><a href="#">로그인</a></span>
+        <span><a href="#">회원가입</a></span>
+    </div>
+    <hr>
+    <div>
+        <span><a href="#">Community</a></span>
+        <span><a href="#">Location</a></span>
+        <span><a href="#">Blog</a></span>
+        <span><a href="#">Open Source</a></span>
+        <span><a href="#">FQA</a></span>
+    </div>
+    <hr>
+    <div>
+        <div>
+            <form action="" method="">
+                <input type="submit" value="검색">
+                <input type="text" name="">
+            </form>
+            <div>
+                <!--데이터베이스 건물 명, 대표 사진 불러오기-->
+                <div>
+                    <img src="" alt="null"><span>건물명</span><span>건물 내용</span>
+                </div>
+                <div>
+                    <img src="" alt="null"><span>건물명</span><span>건물 내용</span>
+                </div>
+                <div>
+                    <img src="" alt="null"><span>건물명</span><span>건물 내용</span>
+                </div>
+                <div>
+                    <img src="" alt="null"><span>건물명</span><span>건물 내용</span>
+                </div>
+                <div>
+                    <!--광고 배너-->
+                    <a href=""><img src="" alt="null"></a>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <!-- 학교 이미지 사진-->
+            <img src="./img/map.png" alt="null">
+
+            <!-- 좌표 get 파라미터 요청시 새창 열리기.-->
+            <div>
+                <a href="#" onclick="win('2.html')"><img src="./img/pin.png" width="100" hieght="100" alt="1"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="2"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="3"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="4"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="5"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="6"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="7"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="8"></a>
+                <a href=""><img src="./img/pin.png" width="100" hieght="100" alt="9"></a>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
